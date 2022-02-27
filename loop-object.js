@@ -22,6 +22,10 @@ for(const prop of keys){
 const entries = Object.entries(bottle);
 // console.log(entries);
 
+
+
+// advanced
+
 for(const [key,values] of Object.entries(bottle)){
     console.log(key,values);
 }
